@@ -1,0 +1,31 @@
+<html ng-app="myApp">
+  <head>
+    <title>76Developers ERP</title>
+    <!-- StyleSheets -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Preload scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <!-- Angular Application script -->
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading"><span class="panel-title">Order Form</span></div>
+            <div class="panel-body">
+                <div ng-view></div>
+            </div>
+            <div class="panel-footer" style="text-align:right">Copyright (c) 2016 Copyright Holder All Rights Reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

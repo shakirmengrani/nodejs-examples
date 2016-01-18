@@ -1,0 +1,11 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "author": "Shakir Mengrani",
+  "license": "ISC"
+}
